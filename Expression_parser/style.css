@@ -1,0 +1,28 @@
+body {
+	background-color: salmon;
+    color: black;
+	font-family: Courier;
+	}
+#infoText{
+	font-size: 25px;
+}
+#expression{
+	width:175px;
+	height:26px;
+	vertical-align:middle;
+	font-family: Courier;
+}
+#parseBut{
+	height:32px;
+	width: fit-content;
+	border:none;
+	background-color:purple;
+	font-family: Courier;
+	color:white;
+	cursor: pointer;
+}
+#solP{
+	  margin-top: 14px;
+    margin-bottom: 30px;
+		font-size:24px;
+}

@@ -1,0 +1,56 @@
+body {
+    background-color: salmon;
+    color: black;
+    font-family: Comic Sans MS;
+}
+
+#bigDiv {
+    border-color: black;
+    border: 3px solid black;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.column {
+    position: relative;
+    display: inline-block;
+}
+
+.piece {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    transition: transform 2s;
+}
+
+.player1 {
+    background-color: red;
+    position: absolute;
+    top: 2px;
+    left: 22px;
+}
+
+.player2 {
+    background-color: black;
+    position: absolute;
+    top: 2px;
+    left: 22px;
+}
+#winnerPar {
+    font-size: 50px;
+}
+#turn{
+    font-size: 35px;
+}

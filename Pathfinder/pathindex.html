@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Pathfinding</title>
+	<link href="pathstyle.css" rel="stylesheet">
+	<script src="pathscript.js" defer>
+
+	</script>
+</head>
+
+<body>
+	<h1>Pathfinding</h1>
+	<div id="box">
+		<canvas width="500" height="400" id="canvas"></canvas>
+	</div>
+	<div id="features">
+		<strong>Add city</strong>
+		<div>
+			<input type="text" id="newCity" placeholder="city">
+      <p id="newCityP">Click the box to add the city</p>    
+    </div>
+		<div>
+        <p id="chooseMP">or choose a map:</p>
+				<button id="sacButton">Sacramento</button>
+				<button id="bayAreaBut">Bay Area</button>
+    </div>
+		<div class="inputSection">
+        <div>
+          <strong>Find path</strong>
+        </div>
+
+        <div>
+          <input type="text" placeholder="starting city" autocomplete="off" id="city1Input">
+          <input type="text" placeholder="destination city" autocomplete="off" id="city2Input">
+          <button id="pathButton">Find shortest path</button>
+        </div>
+    </div>
+		<div class="inputSection">
+        <input type="checkbox" id="showAllCheckbox">
+        <label for="showAllCheckbox">Show all paths</label>
+    </div>
+		<div id="pathsBox"></div>
+	</div>
+</body>
+
+</html>

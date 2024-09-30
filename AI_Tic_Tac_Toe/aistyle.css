@@ -1,0 +1,58 @@
+body {
+  background-color: salmon;
+    color: black;
+	font-family: Courier;
+	}
+
+.square{
+	    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1.5px solid rebeccapurple;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    user-select: none;
+		color: black;
+}
+#grid{
+	font-size: 0;
+    margin-right: 30px;
+    display: inline-block;
+}
+#youParagraph{
+    float: left;
+}
+#compParagraph{
+	margin-left: 50px;
+}
+#youParagraph,#compParagraph{
+	display: inline-block;
+	font-size: 20px;
+}
+#players{
+	display:block;
+}
+#restartButton, #switchButton{
+	    height: 32px;
+    width: fit-content;
+    border: none;
+    background-color: purple;
+    font-family: Courier;
+    color: white;
+    cursor: pointer;
+}
+#restartButton{
+	float: left;
+}
+#switchButton{
+	margin-left: 50px;
+}
+
+#outcomePar{
+  font-size: 50px;
+  display:inline-block;
+  vertical-align: middle;
+}

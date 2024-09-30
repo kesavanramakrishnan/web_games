@@ -1,0 +1,51 @@
+body {
+    background-color: salmon;
+    color: black;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    font-size: 0;
+    display: inline-block;
+}
+
+#s1 {
+    background-color: green;
+    opacity: .5;
+}
+
+#s2 {
+    background-color: red;
+    opacity: .5;
+}
+
+#s3 {
+    background-color: yellow;
+    opacity: .5;
+}
+
+#s4 {
+    background-color: blue;
+    opacity: .5;
+}
+
+#controls {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#test {
+    display: inline-block;
+}
+
+#level {
+    font-size: 30px;
+}
+
+#winner {
+    font-size: 50px;
+}
